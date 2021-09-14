@@ -1,0 +1,62 @@
+    /* Elegence */
+:root {
+  --light: white;  
+  --med: rgb(189, 174, 135);
+  --dark:  rgb(96, 113, 124); 
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+} 
+  
+header {
+  background-color: var(--med);
+}  
+
+header h1 {
+  display: inline;
+  font-size: 40px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 0%;
+  background-color: var(--dark);
+} 
+ 
+nav  {
+  float: right;
+  width: 400px;
+  /* padding: 25px; */
+  /* border: 25px solid black; */
+  /* margin: 25px; */
+
+/* background-color: var(--light);  */
+  /* font-size: 20px; */
+}
+
+nav ul  {
+  list-style-type: none ;
+}
+nav ul li { 
+  display: inline-block;
+  margin-left: 20px;
+}
+  
+a {
+  color: var(--dark);
+  text-decoration: none;
+ } 
+
+ /* @media screen and (max-width: 600px) {
+    .contact_box, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}   */ 
