@@ -24,9 +24,9 @@ header h1 {
   font-size: 40px;
 }
 
-h2, h3 {
+h2 {
   text-align: center;
-  margin: 0%;
+  /* margin: 10%; */
   background-color: var(--dark);
 } 
  
@@ -54,9 +54,26 @@ a {
   text-decoration: none;
  } 
 
- /* @media screen and (max-width: 600px) {
+ #column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+form, footer {
+  text-align: center;
+}
+
+ .contact { 
+  display: block;
+  padding: 1%;
+  /* background-color: aqua;  */
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--dark); 
+}
+   @media screen and (max-width: 600px) {
     .contact_box, input[type=submit] {
     width: 100%;
-    margin-top: 0;
+    margin-top: 10%;
   }
-}   */ 
+}    
