@@ -6,3 +6,4 @@ Portfolio links to my recent projects including My First Page, The Landing page 
 A form area has been developed offering user a way in which to contact me with name, email and an area for comments.  
 
 Site url: https://ptantsidis.github.io/Portfolio/
+GitHub Repo Link: https://github.com/ptantsidis/Portfolio
