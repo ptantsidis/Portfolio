@@ -9,5 +9,6 @@ submitBtn.on("click", function (event) {
     emailSend = (searchInput.val());
     if (emailSend == "") {
         alert("Try Again");
+        
     }
 })
