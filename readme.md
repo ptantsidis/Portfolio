@@ -8,7 +8,10 @@ A form area has been developed offering user a way in which to contact me with n
 Updated. 10/03/2021
 Added three new pages to portfolio
 add javascript for event listener on submit button for emails to connect to me.
-https://github.com/ptantsidis/portfolio/assets/images/portfolioImage.png
+10/18/2021 - added photo
+Add more detailed information in the "About Me" section.
+
+(https://github.com/ptantsidis/portfolio/assets/images/portfolioImage.png
 
 Site url: https://ptantsidis.github.io/Portfolio/
 

@@ -36,7 +36,7 @@ nav  {
 }
 
 nav ul {
-  list-style-type: none ;
+  list-style-type: none;
 }
 nav ul li { 
   display: inline-block;
@@ -48,6 +48,31 @@ a {
   text-decoration: none;
  }
 
+ .container{
+   margin-left:5%;
+   padding-left:5%;
+   margin-right:5%;
+   padding-right:5%;
+ }
+ .about-me{
+   display: flex;
+ }
+ .left-align{
+   max-width:30%;
+ }
+ .right-align{
+   max-width:70%;
+ }
+ .about-me img {
+   /* float: left; */
+   /* padding:24px; */
+   max-width:75%;
+   max-height: 30vh;
+ }
+.about-me ul {
+  display: inline;
+
+}
  .center {
   display: block;
   margin-left: auto;
