@@ -105,16 +105,36 @@ a {
   height: 400px;   
 }
 h3, 
-h4, 
 footer, 
 #contact {
   text-align: center;
 }
 
-form {
-  align-content: center;
-}
-input, label, button {
+/* input, label, button {
   display:block;
   margin:0 auto;
+} */
+
+.form-item{
+  display:flex;
+  justify-content: space-evenly;
+
+}
+/* form{
+  margin-left: 10%;
+  padding-left: 10%;
+  text-align: center; */
+
+/* } */
+.form-group{
+  display:flex;
+}
+.form-group label{
+  font-size:x-large;
+  max-width: 40%;
+}
+
+.form-group input{
+  max-width:50%;
+
 }
