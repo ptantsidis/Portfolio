@@ -49,10 +49,11 @@ a {
  }
 
  .container{
-   margin-left:5%;
-   padding-left:5%;
-   margin-right:5%;
-   padding-right:5%;
+   margin-left:10%;
+   padding-left:10%;
+   margin-right:10%;
+   padding-right:10%;
+
  }
  .about-me{
    display: flex;
@@ -80,29 +81,31 @@ a {
   width: 50%;
  }
 
- #portfolio, #more-portfolio {
+ #portfolio {
    display:flex;
    flex-wrap: wrap;
    justify-content: center;
  }
-
+ #more-portfolio {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 50%;
+}
  .column {
   display: inline;
   padding: 20px;
   flex: 0 0 300px;
  /* // max-width: 25%; */
 }
-.image1 {
-  width: 105%;
+.image1, .image2, .image3 {
+  width: 100%;
+  height: 300px;   
 }
 
-.image {
-  width: 100%;
-  height: 400px;  
-}
 .image4, .image5, .image6 {
   width: 100%;
-  height: 400px;   
+  height: 200px;   
 }
 h3, 
 footer, 
@@ -118,6 +121,7 @@ footer,
 .form-item{
   display:flex;
   justify-content: space-evenly;
+  margin-bottom: 2%;
 
 }
 /* form{
@@ -136,5 +140,15 @@ footer,
 
 .form-group input{
   max-width:50%;
+}
 
+
+#submit{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  min-width:50%;
+  margin:0 auto;
+  background-color: var(--dark);
+  border-radius: 25px;
+  line-height: 2.5;
 }

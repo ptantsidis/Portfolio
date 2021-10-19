@@ -10,6 +10,7 @@ Added three new pages to portfolio
 add javascript for event listener on submit button for emails to connect to me.
 10/18/2021 - added photo
 Add more detailed information in the "About Me" section.
+Add Linked in Profile
 
 (https://github.com/ptantsidis/portfolio/assets/images/portfolioImage.png
 
