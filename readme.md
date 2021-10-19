@@ -11,10 +11,9 @@ add javascript for event listener on submit button for emails to connect to me.
 10/18/2021 - added photo
 Add more detailed information in the "About Me" section.
 Add Linked in Profile
-
-(https://github.com/ptantsidis/portfolio/assets/images/portfolioImage.png
+More web apps added
 
 Site url: https://ptantsidis.github.io/Portfolio/
-
+GitHub URL:https://github.com/ptantsidis/Portfolio.git
 
 ![Profile_page](https://user-images.githubusercontent.com/90045665/137849485-83b0caad-f522-4e14-bb26-8fab489de7c5.png)
